@@ -16,9 +16,9 @@ basekit.addField({
         'label.fieldSelect.corporation': '请选择快递公司所在字段(填写后查询更准确)',
         'label.fieldSelect.phoneNumber': '请选择寄件或收件手机号所在字段(顺丰必填)',
         'label.input.key': '请输入授权key',
-        'label.input.key.placeholder': '在快递100“查询与推送”中获取',
+        'label.input.key.placeholder': '在快递100后台“查询与推送”中获取',
         'label.input.customer': '请输入授权customer',
-        'label.input.customer.placeholder': '在快递100“查询与推送”中获取',
+        'label.input.customer.placeholder': '在快递100后台“查询与推送”中获取',
         'label.outField.latestStatus': '最新状态',
         'label.outField.detailStatus': '详细状态',
         'label.outField.latestDate': '最新更新日期',
@@ -102,7 +102,18 @@ basekit.addField({
       },
       validator: {
         required: true,
-      }
+      },
+      tooltips:[
+        {
+          type:'text',
+          content:'快递信息查询key获取指南'
+        },
+        {
+          type:'link',
+          text:'点我跳转',
+          link:'https://bytedance.larkoffice.com/wiki/XHbqwRwSQiw8GwkeDHecHlexnSb'
+        }
+      ] as any,
     },
     {
       key: 'customer',
