@@ -14,7 +14,7 @@ basekit.addField({
       'zh-CN': {
         'label.fieldSelect.number': '请选择单号所在字段',
         'label.fieldSelect.corporation': '请选择快递公司所在字段(填写后查询更准确)',
-        'label.fieldSelect.phoneNumber': '请选择手机号(寄件人或收件人)所在字段(顺丰必填其他选填)',
+        'label.fieldSelect.phoneNumber': '请选择寄件或收件手机号所在字段(顺丰必填)',
         'label.input.key': '请输入授权key',
         'label.input.key.placeholder': '在快递100“查询与推送”中获取',
         'label.input.customer': '请输入授权customer',
@@ -79,7 +79,7 @@ basekit.addField({
         supportType: [FieldType.Text],
       },
       validator: {
-        required: true,
+        required: false,
       }
     },
     {
@@ -90,7 +90,7 @@ basekit.addField({
         supportType: [FieldType.Number],
       },
       validator: {
-        required: true,
+        required: false,
       }
     },
     {
