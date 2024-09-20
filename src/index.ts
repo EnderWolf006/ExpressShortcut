@@ -31,16 +31,16 @@ basekit.addField({
         'label.fieldSelect.corporation': 'Please select the field where the express company is located',
         'label.fieldSelect.phoneNumber': 'Please select the field where the phone number (sender or recipient) is located',
         'label.input.key': 'Enter the authorization key',
-        'label.input.key.placeholder': 'Get it from the "Query and push" in the Express 100',
+        'label.input.key.placeholder': 'Get it from the Query and push in the Express 100',
         'label.input.customer': 'Enter the authorization customer',
-        'label.input.customer.placeholder': 'Get it from the "Query and push" in the Express 100',
+        'label.input.customer.placeholder': 'Get it from the Query and push in the Express 100',
         'label.outField.latestStatus': 'Latest status',
         'label.outField.detailStatus': 'Detailed status',
         'label.outField.latestDate': 'Latest update date',
         'label.outField.latestLocation': 'Latest location',
         'label.outField.latestPosition': 'Latest Latitude and longitude',
         'label.outField.historyRecord': 'History record',
-      },
+      },  
       'ja-JP': {
         'label.fieldSelect.number': '単号のフィールドを選択してください',
         'label.fieldSelect.corporation': '物流会社のフィールドを選択してください',
@@ -132,7 +132,7 @@ basekit.addField({
     type: FieldType.Object,
     extra: {
       icon: {
-        light: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/eqgeh7upeubqnulog/chatbot.svg',
+        light: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/abjayvoz/ljhwZthlaukjlkulzlp/2024q3/kuaidi.png?x-resource-account=public',
       },
       properties: [
         {
